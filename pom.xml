@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>one.checkhost</groupId>
+  <artifactId>check-host</artifactId>
+  <version>1.0.0</version>
+  <name>check-host.one Java client</name>
+  <description>Java client for check-host.one: ping, TCP ping, HTTP, traceroute and DNS checks from 100+ countries</description>
+  <url>https://check-host.one</url>
+  <licenses><license><name>MIT</name><url>https://opensource.org/licenses/MIT</url></license></licenses>
+  <scm><url>https://github.com/Check-Host-one/check-host-java</url></scm>
+
+  <properties>
+    <maven.compiler.release>11</maven.compiler.release>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.18.2</version>
+    </dependency>
+  </dependencies>
+</project>
